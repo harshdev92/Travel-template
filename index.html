@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+
+  <title>Bootstrap 4 Architects Template</title>
+</head>
+    <body>
+    <main role="main" id="home">
+    <nav id="navbar-site" class="navbar bg-light navbar-light navbar-expand-sm pb-3 fixed-top" role="navigation">
+        <div class="container">
+        <a class="navbar-brand" href="#"><strong><i class="fa fa-map-marker"></i> Logo</strong></a><!--navbar-brand-->
+        
+        <button class="navbar-toggler" type="button"
+            data-toggle="collapse" data-target="#myTogglerNav"
+            aria-controls="myTogglerNav"   
+            aria-expanded="false" aria-label="Toggle Navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myTogglerNav">
+          <div class="navbar-nav ml-auto">
+              <input class="form-control" type ="search" value ="search" placeholder="search"> <button class ="btn"><i class="fa fa-search"></i></button>
+           </div><!--navbar-nav-->
+        </div><!--collape-->    
+    </div><!--container-->    
+   </nav><!--nav-->    
+   
+        
+        
+        
+    <header class="header" >
+        <div class="popup bg-dark">
+            <div class="btnbar text-left">
+                <button class="btn btn-dark py-2" id="fbutton"><i class="fa fa-plane"></i> Flight</button>
+                <button class="btn btn-dark py-2" id="hbutton"><i class="fa fa-bed"></i> Hotel</button>
+                <button class="btn btn-dark py-2" id="rbutton"><i class="fa fa-car"></i> Rental</button>
+            </div>
+            <div class="container bg-light" id="flight">
+            <h3 class="pt-3 text-left">Travel the world with us</h3>
+                <div class="row">
+                    <section class="col-sm-6 py-3 text-left">
+                    <label>From:</label><input class="form-control" type="text" id="from">
+                    </section>
+                     <section class="col-sm-6 py-3 text-left">
+                    <label>To:</label><input class="form-control" type="text" id="to">
+                    </section>
+                    <section class="col-sm-12 py-3 text-left">
+                    <button class="btn">Search Flight</button>
+                    </section>    
+                </div>
+                
+            </div>
+            <div class="container bg-light text-left d-none" id="hotel">
+                <h3 class="pt-2">Find the best hotel.</h3>
+                <p>Book a hotel with us and get the best fares and promotions.</p>
+                <p>We know hotels - we know comfort.</p>
+                <div class="row">
+                <section class="col-sm-12 pb-3 text-left">
+                    <button class="btn">Search Hotel</button>
+                </section>
+                </div>
+            </div>
+            <div class="container bg-light text-left d-none" id="car">
+            <h3 class="pt-2">Best car rental in the world!</h3>
+                <p> Special offer if you book today: 25% off anywhere in the world with CarServiceRentalRUs</p>
+                <div class="row">
+                <section class="col-sm-12 pb-3 text-left">
+                    <input class="form-control" type="text" id="hotel">
+                </section>
+                <section class="col-sm-12 pb-3 text-left">
+                    <button class="btn">Search Availability</button>
+                </section>
+                </div>
+            </div>
+        </div>   
+        
+        
+    </header>
+        
+        
+        <!--header end-->
+        
+    <div class="container">
+        <div class="row py-5">
+            <section class="col-sm-12">
+            <h3>Good Offers Right Now</h3>
+                <p>Up to 50% discount.</p>
+            </section>
+           <section class="col-sm-6 pt-3">
+           <img class="img-fluid" src="images/cinqueterre.jpg" alt="cinqueterre"> 
+            <p class="bottom-left">Cinque Terre</p>
+            </section>
+           <section class="col-sm-6">
+            <div class="row">
+                <div class="col-sm-6 pt-3 ">
+                <img class="img-fluid" src="images/newyork2.jpg" alt="mountain">
+                     <p class="bottom-left">New York</p>
+                </div>
+                
+                  <div class="col-sm-6 pt-3">
+                  <img class="img-fluid" src="images/paris.jpg" alt="mountain">
+                      <p class="bottom-left">Paris</p>
+                </div>
+                
+                <div class="col-sm-6 pt-3">
+                <img class="img-fluid" src="images/pisa.jpg" alt="mountain">
+                     <p class="bottom-left">Pisa</p>  
+                </div>
+                
+                <div class="col-sm-6 pt-3">
+                <img class="img-fluid" src="images/sanfran.jpg" alt="mountain">
+                     <p class="bottom-left">San Francisco</p>
+                </div>
+               
+               </div>
+            
+            </section>
+        
+        </div><!--row-->
+        </div>    <!--container-->
+    
+        
+        <!--section end-->
+        
+        
+        <div class="container-flex">
+           <div class="row justify-content-center">
+               <section class="col-sm-12" style="padding-left: 120px;">
+               <h3>Explore Nature</h3>
+                   <p>Travel with us and see nature at its finest.</p>
+               </section>
+               
+              <section class="col-sm-5 card px-0 mr-2" id="jhondoe">
+                <img class="card-img-top" src="images/mountains2.jpg" alt="mountain">
+                <div class="card-body">
+                    <h3 class="card-title">Mountains, Austria</h3>
+                    <h5 class="card-subtitle text-muted">One-way from $39</h5>
+                    <p class="card-text pt-2">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                </div>
+                <div class="list-group">
+               <button class="btn btn-default" type="button">Book Now</button>
+               </div>
+              </section>
+               
+               
+              <section class="col-sm-5 card px-0" id="jadonee">
+                <img class="card-img-top" src="images/ocean2.jpg" alt="janedoeteam">
+                <div class="card-body">
+                    <h3 class="card-title">West Coast, Norway</h3>
+                    <h5 class="card-subtitle text-muted">Roundtrip from $79</h5>
+                    <p class="card-text pt-2">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                </div>
+                <div class="list-group">
+               <button class="btn btn-default" type="button">Book Now</button>
+               </div>           
+              </section>
+            
+            </div> <!--row-->       
+        </div><!--container-->
+        
+        
+        <!--section end-->
+    
+        
+        <div class="container bg-dark my-5">
+            <div class="row py-2 text-light">
+                <section class="col-sm-12">
+                    <h3>Get the best offers first!</h3>
+                    <p>Join our newsletter.</p>
+                     <label>E-mail</label><input class="form-control" type="Email" id="from">
+                    <button class="btn btn-default my-3">Subscribe</button>
+                    </section>
+                    
+            </div>
+        
+        </div>
+        
+        
+        <!--section end-->
+        
+        
+        
+    <div class="container" id="contact">
+    <div class="row mb-4 mt-2 pt-5">
+        <section class="col-sm-12">
+            <h3>Contact</h3>
+            <address>
+                  <i class="fa fa-map-marker pr-3"></i>Delhi, India<br>
+                  <i class="fa fa-phone pr-3"></i>Phone: +00 151515<br>
+                  <i class="fa fa-envelope pr-3"></i><a href="mailto:webmaster@example.com">Email: email@email.com</a>
+            </address>
+            
+        </section>
+    <section class="col-sm-12">    
+       <form>
+         <fieldset class="form-group">
+            <legend>Let us book your next trip!</legend>
+            <div class="form-group">
+            <label class="sr-only" for="name">Name</label>
+            <input class="form-control" type="text" id="name" placeholder="Name">  
+            </div><!--form group-->
+            <div class="form-group">
+            <label class="sr-only" for="email">Email</label>
+            <input class="form-control" type="email" id="email" placeholder="Email">  
+            </div><!--form group-->
+
+             <div class="form-group">
+            <label class="sr-only" for="message">Message</label>
+            <input class="form-control" type="text" id="message" placeholder="Message">  
+            </div><!--form group-->
+             <button class="btn btn-primary" type="submit">Submit</button>
+        </fieldset>            
+     </form>
+  </section>    
+  </div><!--row-->
+</div><!--container-->
+
+
+        <!--contact section end-->
+        
+        
+        
+        
+        <div class="row">
+            <section class="col-sm-12">
+            <footer role="contentinfo">
+             <p class="text-center bg-dark py-4 text-light mb-0">Powered By Bootstra 4 </p>  
+      
+            </footer>  
+    
+            </section>   
+       </div>
+      
+         <script src="js/jquery-1.11.2.min.js"></script>     
+        <script src="js/jquery.slim.min.js"></script>
+        <!--<script src="js/popper.min.js"></script>-->
+        <script src="js/bootstrap.min.js"></script>  
+        
+        <script>
+        $(document).ready(function(){
+           $('#hbutton').click(function(e) {
+           e.preventDefault();
+
+
+        $('#hotel').css('cssText', 'display: block !important');
+        $('#flight').css('cssText', 'display: none !important');
+        $('#car').css('cssText', 'display: none !important');
+      
+        });
+            
+           $('#rbutton').click(function(e) {
+           e.preventDefault();
+
+        $('#hotel').css('cssText', 'display: none !important');
+        $('#flight').css('cssText', 'display: none !important');
+        $('#car').css('cssText', 'display: block !important');
+      
+        });
+            
+             $('#fbutton').click(function(e) {
+           e.preventDefault();
+
+        $('#hotel').css('cssText', 'display: none !important');
+        $('#flight').css('cssText', 'display: block !important');
+        $('#car').css('cssText', 'display: none !important');
+      
+        });
+            
+            
+        });
+        
+        
+        </script>
+        
+        
+        </main>
+    </body>  
+</html>
